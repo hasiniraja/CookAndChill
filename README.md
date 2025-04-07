@@ -33,4 +33,96 @@ Got it! Here's the section rewritten *without* the "easy/medium" headings and wi
 | **eslint** | A static code analysis tool to ensure code quality and consistency across the project. |
 
 ---
+Perfect! Here's a clean and user-friendly section for your README that explains how to **set up and run the CookAndChill app** — both frontend and backend:
+
+---
+
+##  Getting Started
+
+Follow the steps below to set up and run the CookAndChill application locally.
+###  Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [npm](https://www.npmjs.com/)
+- Internet connection (to fetch external API data)
+
+---
+
+###  Folder Structure
+
+```
+CookAndChill/
+├── Backend/
+└── Frontend/
+```
+
+---
+
+### ⚙️ Backend Setup
+
+1. Open terminal and navigate to the backend folder:
+
+   ```bash
+   cd CookAndChill/Backend
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file and add your API keys like:
+
+   ```
+   SPOONACULAR_API_KEY=your_key
+   WEATHER_API_KEY=your_key
+   NEWS_API_KEY=your_key
+   BOOKS_API_KEY=your_key
+   MEME_API_KEY=your_key
+   ```
+
+4. Start the backend server:
+
+   ```bash
+   npm start
+   ```
+
+   The backend server will typically run on: `http://localhost:5000/`
+
+---
+
+### 💻 Frontend Setup
+
+1. Open a new terminal and navigate to the frontend folder:
+
+   ```bash
+   cd CookAndChill/Frontend
+   ```
+
+2. Install frontend dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the React frontend:
+
+   ```bash
+   npm run dev
+   ```
+
+   The frontend will usually run on: `http://localhost:5173/`
+
+---
+
+### ✅ Testing the Setup
+
+- Make sure both servers (frontend and backend) are running.
+- Visit the frontend URL in your browser.
+- Try using the weather, recipe, book, meme, and news features to ensure everything works as expected.
+
+---
 
