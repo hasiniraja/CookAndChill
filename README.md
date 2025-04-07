@@ -1,12 +1,14 @@
-# React + Vite
-hello
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ CookAndChill – Your Culinary Companion Based on Weather and Mood
+CookAndChill is a smart recipe web app designed to spice up your cooking experience by tailoring dish suggestions based on your current weather, cravings, and even meme-worthy moods 😄. Whether it's a cozy stew for a rainy evening or a refreshing salad on a sunny day, CookAndChill curates the perfect recipe to match the vibe.
 
-Currently, two official plugins are available:
+🎯 Purpose
+The purpose of CookAndChill is to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Help users discover new recipes that fit their current weather or location.
 
-## Expanding the ESLint configuration
+Suggest mood-boosting meals paired with a touch of humor through memes.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Find nearby grocery stores to grab ingredients with ease.
+
+Bring joy and convenience to daily cooking through a beautiful, interactive interface.
+
